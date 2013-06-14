@@ -10,12 +10,12 @@ my $beta_rate=1.0;
 my $mirrors=820;
 my $ntower=4;
 
-my @list, @best_listi, @absolute_best_list;
+my @list, @best_list, @absolute_best_list;
 
 # energy
 my $energy, $max_energy, $best_energy;
 
-## initialize the particle positions randomly or restarting
+## initialize the heliostat orientations randomly or read from file old config
 
 #rand_pos();
 read_pos();
